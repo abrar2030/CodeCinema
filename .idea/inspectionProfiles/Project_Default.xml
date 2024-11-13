@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="MovieApp" />
+          <option value="MovieApp" />
+          <option value="MovieApp" />
+          <option value="MovieApp" />
+          <option value="MovieApp" />
+          <option value="MovieApp" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="com.jayway.jsonpath:json-path:2.8.0" />
+          <option value="org.xmlunit:xmlunit-core:2.9.1" />
+          <option value="ch.qos.logback:logback-classic:1.4.11" />
+          <option value="ch.qos.logback:logback-core:1.4.11" />
+          <option value="org.springframework:spring-context:6.0.11" />
+          <option value="org.yaml:snakeyaml:1.33" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Fixed in branch" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

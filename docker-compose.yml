@@ -1,0 +1,10 @@
+---
+version: '3.8'
+services:
+  CodeCinema:
+    build: .
+    image: codecinema:latest
+    container_name: codecinema_container
+    stdin_open: true
+    tty: true
+    command: ["java", "-jar", "app.jar"]
