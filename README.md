@@ -37,18 +37,18 @@
 #### Run Locally
 To start the application locally, execute the JAR file:
 ```bash
-java -jar target/CodeCinema-1.0-SNAPSHOT.jar
+java -jar target/codecinema-1.0-SNAPSHOT.jar
 ```
 Once launched, the application will attempt to connect to an in-memory H2 database and provide an interactive command-line interface for user input.
 
 #### Run with Docker
 1. **Build the Docker Image**:
    ```bash
-   docker build -t CodeCinema:latest .
+   docker build -t codecinema:latest .
    ```
 2. **Run the Docker Container**:
    ```bash
-   docker run --rm -it CodeCinema:latest
+   docker run --rm -it codecinema:latest
    ```
    This command runs the CodeCinema inside a Docker container, making it easy to manage and deploy.
 
@@ -134,31 +134,31 @@ The project follows a standard Maven directory structure:
 ```
 CodeCinema/
 ├── README.md
-├── CodeCinema-test-data.md
-├── CodeCinema-setup.md
+├── codecinema-test-data.md
+├── codecinema-setup.md
 ├── Dockerfile
 ├── docker-compose.yml
-├── CodeCinema-setup.sh
+├── codecinema-setup.sh
 ├── pom.xml
 └── src/
     ├── main/
     │   └── java/
     │       └── com/
     │           └── example/
-    │               └── CodeCinema/                                      
+    │               └── codecinema/                                      
     │                  └── CodeCinema.java  
     └── test/
         └── java/
             └── com/
                 └── example/
-                    └── CodeCinema/
+                    └── codecinema/
                         └── CodeCinemaTest.java
 ```
 - **`CodeCinema.java`**: Main application entry point.
 - **`CodeCinemaTest.java`**: Unit tests to validate the application's functionality.
 - **`Dockerfile`**: Defines how the Docker image is built.
 - **`docker-compose.yml`**: Defines services and dependencies for Docker Compose.
-- **`CodeCinema-setup.sh`**: Automation script for building, running, and managing the application.
+- **`codecinema-setup.sh`**: Automation script for building, running, and managing the application.
 
 ## Testing
 
